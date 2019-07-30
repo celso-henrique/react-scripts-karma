@@ -9,6 +9,7 @@ module.exports = () => {
     },
     reporters: ['nyan'],
     webpack: {
+      mode: 'development',
       optimization: {
         splitChunks: false,
         runtimeChunk: false
