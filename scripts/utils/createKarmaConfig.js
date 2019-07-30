@@ -10,6 +10,9 @@ module.exports = () => {
     reporters: ['nyan'],
     webpack: {
       mode: 'development',
+      node: {
+        fs: 'empty'
+      },
       optimization: {
         splitChunks: false,
         runtimeChunk: false
@@ -43,8 +46,8 @@ module.exports = () => {
       noInfo: true
     },
     colors: true,
-    autoWatch: true,
-    singleRun: false
+    autoWatch: false,
+    singleRun: true
   }
 
   return config
