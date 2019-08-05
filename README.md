@@ -1,4 +1,5 @@
 # react-scripts-karma
+[![Build Status](https://travis-ci.org/celso-henrique/react-scripts-karma.svg?branch=master)](https://travis-ci.org/celso-henrique/react-scripts-karma)
 React scripts forked from [Create React App](https://github.com/facebook/create-react-app), but using [Karma](https://karma-runner.github.io/latest/index.html) as the test runner and [Mocha](https://mochajs.org/) as the test framework by default.
 
 ## Why
