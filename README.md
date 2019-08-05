@@ -91,7 +91,7 @@ But you can override or add other configs just adding the key "karma" into your 
 ```
 
 ## Using Jest
-If you want to use Jest to compare the results with karma or for any other reason, you can use the command `react-scripts-test test-jest`, as bellow:
+If you want to use Jest to compare the results with karma or for any other reason, you can use the command `react-scripts-karma test-jest`, as bellow:
 
 ``` json
 {
