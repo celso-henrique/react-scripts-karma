@@ -22,6 +22,24 @@ Override the test script of your project's `package.json` (and other scripts if 
 }
 ```
 
+Write a simple test inside your `src` directory, with a `.spec.js` extension:
+``` javascript
+const assert = require('assert');
+
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1, 2, 3].indexOf(4), -1);
+    });
+  });
+});
+```
+
+And run:
+``` sh
+npm run test
+```
+
 ## Configuration
 The default karma configuration is:
 
