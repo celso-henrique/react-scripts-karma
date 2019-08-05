@@ -94,10 +94,12 @@ But you can override or add other configs just adding the key "karma" into your 
 If you want to use Jest to compare the results with karma or for any other reason, you can use the command `react-scripts-test test-jest`, as bellow:
 
 ``` json
+{
   "scripts": {
     "test": "react-scripts-karma test",
     "test:jest": "react-scripts-karma test-jest",
   }
+}
 ```
 
 ## License
