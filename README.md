@@ -11,14 +11,12 @@ Install this lib using:
 npm install --save react-scripts-karma
 ```
 
-Override the test script of your project (and other scripts if you want to use our forked version):
+Override the test script of your project's `package.json` (and other scripts if you want to use our forked version):
 ``` json
 {
-  ... 
   "scripts": {
     "test": "react-scripts-karma test"
-  },
-  ...
+  }
 }
 ```
 
@@ -84,11 +82,9 @@ const karmaConfig = {
 But you can override or add other configs just adding the key "karma" into your `package.json` file:
 ``` json
 {
-  ...
   "karma": {
     "reporters": ["dots"]
-  },
-  ...
+  }
 }
 ```
 
@@ -99,8 +95,7 @@ If you want to use Jest to compare the results with karma or for any other reaso
   "scripts": {
     "test": "react-scripts-karma test",
     "test:jest": "react-scripts-karma test-jest",
-  },
-
+  }
 ```
 
 ## License
