@@ -1,8 +1,15 @@
 {
   "name": "react-scripts-karma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React scripts using karma as the test runner.",
-  "keywords": ["react-scripts", "karma", "create-react-app", "browser", "mocha", "tests"],
+  "keywords": [
+    "react-scripts",
+    "karma",
+    "create-react-app",
+    "browser",
+    "mocha",
+    "tests"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/celso-henrique/react-scripts-karma.git"
